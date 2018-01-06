@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/*
+   Career Craze Base Style Sheet
+   Authors: Lucas Eastman, Cynthia Sepulveda, Dominic Torricelli
+   Date: 1.4.18
+
+   Filename: base.css
+*/
+
+/* HTML and Body Styles */
+
+html {
+  min-height: 100%;
+  background-color: #DBDBDB;
+}
+
+body {
+  margin: 0 auto;
+  width: 90%;
+  background: linear-gradient(0deg, #D7AA7D 0%, #FFEAC4);
+  box-shadow: -25px 0 50px black, 25px 0 50px;
+}
+
+/* Below Nav Styles */
+
+#belowNav {
+  padding-top: 50px;
+}
+
+/* Header Styles */
+
+header a {
+  -webkit-display: flex;
+  display: flex;
+
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+}
+
+#logo {
+  height: 250px;
+}
+
+/* Main Section Styles */
+
+main {
+  margin: 25px 25px 0;
+}
+
+/* Moving Nav Styles */
+
+#movingNav {
+  position: fixed;
+  top: 0%;
+  width: 90%;
+}
+
+#movingNav ul {
+  -webkit-display: flex;
+  display: flex;
+
+  flex-flow: row nowrap;
+}
+
+#movingNav ul a {
+  padding: 10px 5px;
+  width: 12.75%;
+  color: white;
+  text-align: center;
+  background-color: #F5B26F;
+  border-bottom: 2.5px solid white;
+
+  transition: width 1s, color 1s, background-color 1s, border-bottom-color 1s;
+}
+
+#movingNav ul a:hover {
+  width: 20%;
+  color: #F5B26F;
+  background-color: #FFFFFF;
+  border-bottom-color: orange;
+}
+
+/* Footer Styles */
+
+footer {
+  margin-top: 25px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #C08040;
+}
+
+footer p {
+  text-align: center;
+}
