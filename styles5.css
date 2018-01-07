@@ -16,19 +16,33 @@ section#content {
 
 }
 
-aside#appList {
 
+/* aside styles */
+aside#appList {
+  border: solid 5px rgb(208, 132, 32);
 }
+
+h1#check {
+  background-color: rgb(208, 132, 32);
+  text-align: center;
+}
+
+p#check {
+  background-color: rgb(208, 132, 32);
+  text-align: center;
+}
+
 
 
 /* Flexbox */
 .flexbox {
   display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
 }
 
 .flexbox>div {
   width: 50%;
-  margin: 10px;
+  margin: 0px 50px;
   text-align: left;
 }
