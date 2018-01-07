@@ -37,7 +37,6 @@ p#check {
 /* Flexbox */
 .flexbox {
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
 }
 
