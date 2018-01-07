@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+   Career Craze Individual Page Style Sheet 5
+   Authors: Lucas Eastman, Cynthia Sepulveda, Dominic Torricelli
+   Date: 1.6.18
+
+   Filename: styles5.css
+*/
+
+/* Main Section Styles */
+
+
+/* section styles */
+section#content {
+
+}
+
+aside#appList {
+
+}
+
+
+/* Flexbox */
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexbox>div {
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+}
