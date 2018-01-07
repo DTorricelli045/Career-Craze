@@ -18,26 +18,70 @@ section#content {
 
 
 /* aside styles */
-aside#appList {
-  border: solid 5px rgb(208, 132, 32);
+
+aside#appList{
+  border-bottom: solid 4px #FFFFFF;
 }
 
 h1#check {
-  background-color: rgb(208, 132, 32);
+  border-top: solid 2.5px #FF9F00;
+  border-left: solid 2.5px #FF9F00;
+  border-right: solid 2.5px #FF9F00;
+  background-color: #FFFFFF;
   text-align: center;
+  line-height: 150%;
+    opacity: 0.80;
+
 }
 
 p#check {
-  background-color: rgb(208, 132, 32);
+  border-left: solid 2.5px #FF9F00;
+  border-right: solid 2.5px #FF9F00;
+  background-color: #FFFFFF;
   text-align: center;
+  line-height: 150%;
+    opacity: 0.80;
 }
 
+
+/* list styles */
+#appList ul li {
+  line-height: 150%;
+  padding: 10px 5px;
+  color: white;
+  text-align: center;
+  background-color: #FF9F00;
+  border-left: 2.5px solid white;
+  border-right: 2.5px solid white;
+
+  transition: line-height 0.5s, color 1s, background-color 1s, border-left-color 1s, box-shadow 1s;
+}
+
+
+#appList ul li:hover {
+  line-height: 200%;
+  color: #FF9F00;
+  background-color: #FFFFFF;
+  border-left-color: #FF9F00;
+  border-right-color: #FF9F00;
+  opacity: 0.85;
+  box-shadow: 0 18px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#appList ul li: {
+  line-height: 200%;
+  color: red;
+  background-color: #FFFFFF;
+  border-left-color: #FF9F00;
+  border-right-color: #FF9F00;
+  opacity: 0.85;
+}
 
 
 /* Flexbox */
 .flexbox {
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
 }
 
@@ -46,3 +90,6 @@ p#check {
   margin: 0px 50px;
   text-align: left;
 }
+
+
+/* dropdown */
