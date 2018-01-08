@@ -12,8 +12,20 @@
 
 
 /* section styles */
-section#content {
 
+section#intro {
+  line-height: 150%;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+section#content {
+  line-height: 150%;
 }
 
 
@@ -21,6 +33,8 @@ section#content {
 
 aside#appList{
   border-bottom: solid 4px #FFFFFF;
+  line-height: 150%;
+  margin-top: 50px;
 }
 
 h1#check {
@@ -30,7 +44,7 @@ h1#check {
   background-color: #FFFFFF;
   text-align: center;
   line-height: 150%;
-    opacity: 0.80;
+  opacity: 0.80;
 
 }
 
@@ -39,8 +53,7 @@ p#check {
   border-right: solid 2.5px #FF9F00;
   background-color: #FFFFFF;
   text-align: center;
-  line-height: 150%;
-    opacity: 0.80;
+  opacity: 0.80;
 }
 
 
@@ -85,10 +98,16 @@ p#check {
   flex-wrap: nowrap;
 }
 
-.flexbox>div {
-  width: 50%;
+.flexbox>div#box1 {
+  width: 60%;
   margin: 0px 50px;
   text-align: left;
+}
+
+.flexbox>div#box2 {
+  width: 40%;
+  margin: 0px 50px;
+  text-align: center;
 }
 
 
