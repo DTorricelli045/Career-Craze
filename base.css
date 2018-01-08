@@ -12,6 +12,7 @@
 
 html {
   min-height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
   background-color: #DBDBDB;
 }
 
@@ -63,17 +64,18 @@ header a {
   width: 12.75%;
   color: white;
   text-align: center;
-  background-color: #F5B26F;
+  background-color: #E8700C;
   border-bottom: 2.5px solid white;
+  opacity: 0.85;
 
   transition: width 1s, color 1s, background-color 1s, border-bottom-color 1s;
 }
 
 #movingNav ul a:hover {
   width: 20%;
-  color: #F5B26F;
+  color: #E8700C;
   background-color: #FFFFFF;
-  border-bottom-color: orange;
+  border-bottom-color: #E8700C;
 }
 
 /* Footer Styles */
@@ -82,7 +84,7 @@ footer {
   margin-top: 25px;
   padding: 10px 0;
   width: 100%;
-  background-color: #C08040;
+  background-color: #E8700C;
 }
 
 footer p {
