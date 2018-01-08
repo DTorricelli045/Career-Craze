@@ -8,6 +8,8 @@
    Filename: styles1.css
 */
 
+
+
 /* Welcome Headings Styles */
 
 #welcomeHeadings {
@@ -30,5 +32,149 @@
 /* About Us Section Styles */
 
 #about {
-  padding-left: 5px;
+  padding: 100px 0;
+}
+
+#about div {
+  padding: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+#about h1 {
+  margin-bottom: 0.5em;
+  color: white;
+  font-size: 4em;
+}
+
+#about p {
+  color: gray;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+/* What We Offer Heading Styles */
+
+#offer {
+  padding: 25px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+/* Services Section Styles */
+
+#services {
+  -webkit-display: flex;
+  display: flex;
+
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+  align-items: flex-start;
+
+  padding: 25px 0;
+  background: url(businessicons.jpg) 50% / 100% no-repeat fixed;
+}
+
+.service {
+  width: 40%;
+  padding: 20px 0;
+  background: linear-gradient(45deg, #D7AA7D 0%, #FFEAC4);
+}
+
+.service h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 2em;
+}
+
+.service p {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.service a {
+  clear: both;
+  padding: 10px;
+  width: 25%;
+  color: #8D8D8D;
+  text-decoration: none;
+  text-align: center;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  background-color: #F6DCDC;
+  transition: width 0.25s, color 0.5s, background-color 0.5s;
+}
+
+.service a:hover {
+  width: 75%;
+  color: white;
+  background-color: #CC9999;
+}
+
+.left {
+  margin-right: 10%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.left a {
+  float: left;
+  border-right: 5px solid white;
+}
+
+.right {
+  margin-left: 10%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: right;
+}
+
+.right a {
+  float: right;
+  border-left: 5px solid white;
+}
+
+.top {
+  margin-bottom: 2.5%;
+}
+
+/* Contact And FAQ Section Styles */
+
+#contactAndFAQ {
+  padding: 0 0;
+  background: url(questionmark.jpg) 50% 87.5% / 10% no-repeat fixed;
+}
+
+#contactAndFAQ div {
+  padding: 50px 0;
+}
+
+#contactAndFAQ div h2 {
+  margin-bottom: 0.5em;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+#contactAndFAQ div p {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+#questionLinks {
+  -webkit-display: flex;
+  display: flex;
+
+  flex-flow: row wrap;
+
+  justify-content: space-around;
 }
