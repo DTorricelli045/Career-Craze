@@ -22,10 +22,10 @@
   margin-bottom: 0.75em;
   line-height: 1em;
   font-size: 5em;
+  text-decoration: underline;
 }
 
 #welcomeHeadings h2 {
-  color: #B95050;
   font-size: 3em;
 }
 
@@ -75,13 +75,12 @@
   align-items: flex-start;
 
   padding: 25px 0;
+  background: url(businessicons.jpg) 50% / 100% no-repeat fixed;
 }
 
 .service {
   width: 40%;
   padding: 20px 0;
-  border-top: 5px solid gray;
-  border-bottom: 5px solid gray;
   background: linear-gradient(45deg, #D7AA7D 0%, #FFEAC4);
 }
 
@@ -121,7 +120,6 @@
 
 .left {
   margin-right: 10%;
-  border-right: 5px solid gray;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -133,7 +131,6 @@
 
 .right {
   margin-left: 10%;
-  border-left: 5px solid gray;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   text-align: right;
