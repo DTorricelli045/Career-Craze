@@ -68,7 +68,7 @@ header a {
   border-bottom: 2.5px solid white;
   opacity: 0.85;
 
-  transition: width 1s, color 1s, background-color 1s, border-bottom-color 1s;
+  transition: width 0.5s, color 1s, background-color 1s, border-bottom-color 1s;
 }
 
 #movingNav ul a:hover {

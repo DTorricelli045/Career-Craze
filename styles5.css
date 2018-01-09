@@ -8,26 +8,38 @@
    Filename: styles5.css
 */
 
-/* Main Section Styles */
-
-
 /* section styles */
 
 section#intro {
   line-height: 150%;
-  text-align: center;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
+blockquote {
+  padding: 20px 0 20px 20px;
+  border-left: 5px solid gray;
+}
+
+hr {
+  margin-bottom: 20px;
+  width: 80%;
+  height: 2.5px;
+  background-color: silver;
+  border-radius: 1.25px;
+}
 
 section#content {
   line-height: 150%;
 }
 
+#content h1 {
+  color: white;
+  font-size: 1.5em;
+}
 
 /* aside styles */
 
@@ -56,6 +68,30 @@ p#check {
   opacity: 0.80;
 }
 
+/* Apps Images Styles */
+
+#appsImg {
+  float: right;
+  margin: 25px 0 25px 25px;
+  width: 50%;
+  border: 5px groove white;
+}
+
+figure {
+  float: left;
+  margin-right: 15px;
+  width: 30%;
+}
+
+#exampleRefs {
+  margin: auto 0;
+  width: 90%;
+  border: 5px groove white;
+}
+
+figcaption {
+  text-align: center;
+}
 
 /* list styles */
 #appList ul li {
@@ -67,7 +103,7 @@ p#check {
   border-left: 2.5px solid white;
   border-right: 2.5px solid white;
 
-  transition: line-height 0.5s, color 1s, background-color 1s, border-left-color 1s, box-shadow 1s;
+  transition: line-height 0.5s, color 1s, background-color 1s, border-right-color 1s, border-left-color 1s, box-shadow 1s;
 }
 
 
