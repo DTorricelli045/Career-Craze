@@ -120,14 +120,6 @@ figcaption {
 }
 
 
-#appList ul li: {
-  line-height: 200%;
-  color: red;
-  background-color: #FFFFFF;
-  border-left-color: #FF9F00;
-  border-right-color: #FF9F00;
-  opacity: 0.85;
-}
 
 
 /* Flexbox */
