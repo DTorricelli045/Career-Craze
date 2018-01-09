@@ -76,6 +76,7 @@ header a {
   color: #E8700C;
   background-color: #FFFFFF;
   border-bottom-color: #E8700C;
+  opacity: 1;
 }
 
 /* Footer Styles */
