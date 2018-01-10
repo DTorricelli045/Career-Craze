@@ -48,9 +48,26 @@
 }
 
 #about p {
+  margin-bottom: 50px;
   color: gray;
   font-size: 2em;
   line-height: 1em;
+}
+
+#about a {
+  padding: 10px;
+  color: #8D8D8D;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  border: 5px solid white;
+  background-color: #F6DCDC;
+  transition: width 0.25s, color 0.5s, background-color 0.5s;
+}
+
+#about a:hover {
+  color: white;
+  background-color: #CC9999;
 }
 
 /* What We Offer Heading Styles */
@@ -75,6 +92,7 @@
   align-items: stretch;
 
   padding: 25px 0;
+  margin-bottom: 125px;
 }
 
 .service {
@@ -82,6 +100,7 @@
   padding: 20px 0;
   border: 5px solid gray;
   background: linear-gradient(45deg, #D7AA7D 0%, #FFEAC4);
+  box-shadow: 0 25px 20px 10px black;
 }
 
 .service h2 {
@@ -99,9 +118,13 @@
 }
 
 .service a {
+  float: left;
+  margin: 10px 20px;
   padding: 10px;
   width: 25%;
   color: #8D8D8D;
+  text-align: center;
+  text-decoration: none;
   border: 5px solid white;
   background-color: #F6DCDC;
   transition: width 0.25s, color 0.5s, background-color 0.5s;
@@ -113,14 +136,18 @@
   background-color: #CC9999;
 }
 
+.right a {
+  float: right;
+}
+
 .top {
-  margin-bottom: 2.5%;
+  margin-bottom: 5%;
 }
 
 /* Contact And FAQ Section Styles */
 
 #contactAndFAQ {
-  padding: 0 0;
+  padding: 2.5%;
   background: url(questionmark.jpg) 50% 87.5% / 10% no-repeat fixed;
 }
 
@@ -149,4 +176,23 @@
   flex-flow: row wrap;
 
   justify-content: space-around;
+}
+
+#questionLinks a {
+  color: white;
+  background-color: #F6DCDC;
+  padding: 10px;
+  width: 10%;
+  color: #8D8D8D;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid white;
+  background-color: #F6DCDC;
+  transition: width 0.25s, color 0.5s, background-color 0.5s;
+}
+
+#questionLinks a:hover {
+  width: 25%;
+  color: white;
+  background-color: #CC9999;
 }
