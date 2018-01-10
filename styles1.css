@@ -48,9 +48,26 @@
 }
 
 #about p {
+  margin-bottom: 50px;
   color: gray;
   font-size: 2em;
   line-height: 1em;
+}
+
+#about a {
+  padding: 10px;
+  color: #8D8D8D;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  border: 5px solid white;
+  background-color: #F6DCDC;
+  transition: width 0.25s, color 0.5s, background-color 0.5s;
+}
+
+#about a:hover {
+  color: white;
+  background-color: #CC9999;
 }
 
 /* What We Offer Heading Styles */
@@ -107,6 +124,7 @@
   width: 25%;
   color: #8D8D8D;
   text-align: center;
+  text-decoration: none;
   border: 5px solid white;
   background-color: #F6DCDC;
   transition: width 0.25s, color 0.5s, background-color 0.5s;
@@ -167,6 +185,7 @@
   width: 10%;
   color: #8D8D8D;
   text-align: center;
+  text-decoration: none;
   border: 5px solid white;
   background-color: #F6DCDC;
   transition: width 0.25s, color 0.5s, background-color 0.5s;
