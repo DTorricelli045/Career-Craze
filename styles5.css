@@ -120,13 +120,16 @@ figcaption {
 }
 
 
-#appList ul li: {
-  line-height: 200%;
-  color: red;
-  background-color: #FFFFFF;
-  border-left-color: #FF9F00;
-  border-right-color: #FF9F00;
-  opacity: 0.85;
+#appList ul li:nth-child(odd) {
+  line-height: 150%;
+  padding: 10px 5px;
+  color: white;
+  text-align: center;
+  background-color: #f58222;
+  border-left: 2.5px solid white;
+  border-right: 2.5px solid white;
+
+  transition: line-height 0.5s, color 1s, background-color 1s, border-right-color 1s, border-left-color 1s, box-shadow 1s;
 }
 
 
