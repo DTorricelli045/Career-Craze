@@ -14,7 +14,7 @@
 
 #welcomeHeadings {
   margin: 2em 0;
-  color: white;
+  color: #e64e0e;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@
 
 #about h1 {
   margin-bottom: 0.5em;
-  color: white;
+  color: #e64e0e;
   font-size: 4em;
 }
 
@@ -57,8 +57,9 @@
 
 #offer {
   padding: 25px 0;
+  margin-bottom: 20px;
   width: 100%;
-  color: white;
+  color: #e64e0e;
   text-align: center;
   font-size: 4em;
 }
@@ -93,6 +94,8 @@
 }
 
 .service p {
+  font-size: 1.5em;
+  line-height: 1em;
   margin-left: 15px;
   margin-right: 15px;
   color: gray;
@@ -158,16 +161,33 @@
 
 #contactAndFAQ div h2 {
   margin-bottom: 0.5em;
-  color: white;
+  color: #e64e0e;
   text-align: center;
   font-size: 4em;
 }
 
 #contactAndFAQ div p {
-  color: white;
+  color: #e64e0e;
   text-align: center;
   font-size: 2em;
   line-height: 1em;
+}
+
+#contactAndFAQ a{
+padding: 10px;
+width: 20%;
+color: #8D8D8D;
+text-decoration: none;
+text-align: center;
+border: 5px solid white;
+background-color: #F6DCDC;
+transition: width 0.25s, color 0.5s, background-color 0.5s, height 0.25s;
+}
+
+#contactAndFAQ a:hover{
+width: 25%;
+color: white;
+background-color: #CC9999;
 }
 
 #questionLinks {
