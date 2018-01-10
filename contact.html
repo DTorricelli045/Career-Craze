@@ -29,47 +29,68 @@
       <main>
         <h1>Contact Us</h1>
 
-        <!-- Page Intro -->
-        <div id="pageIntro">
-          <h2>We'd love to hear what you've got to say</h2>
-          <p>This site is run for users like you, but sometimes it doesn't always
-          have what you need. If you care to give us some feedback on the website,
-          or just have a question or concern for us, please feel free
-          to let us know about it below. You can also use our contact form to get
-          in contact with our administration team.</p>
-        </div>
+        <!-- Contact Section -->
 
-        <!-- Contact Form -->
-        <div id="contactForm">
-          <form action="contact.html" method="post">
-            <fieldset>
-              <label for="firstName">Name</label>
-              <input type="text" name="firstName" placeholder="First Name" id="firstName" required>
-              <input type="text" name="lastName" placeholder="Last Name" id="lastName" required>
-            </fieldset>
-            <br>
-            <fieldset>
-              <label for="email">Email Address</label>
-              <input type="email" name="email" placeholder="johndoe@example.com" id="email" required>
-            </fieldset>
-            <br>
-            <fieldset>
-              <label for="message">Message</label>
-              <br>
-              <textarea name="message" rows="8" cols="80" placeholder="Type your message here" required></textarea>
-            </fieldset>
-            <br>
-            <div id="buttons">
-              <input type="submit" name="submit" value="Submit" id="submit">
-              <input type="reset" name="reset" value="Reset">
+        <section id="contact">
+
+          <section id="form">
+            <!-- Page Intro -->
+            <div id="formIntro">
+              <h2>We'd love to hear what you've got to say</h2>
+              <p>This site is run for users like you, but sometimes it doesn't always
+              have what you need. If you care to give us some feedback on the website,
+              or just have a question or concern for us, please feel free
+              to let us know about it below. You can also use our contact form to get
+              in contact with our administration team.</p>
             </div>
-          </form>
-        </div>
+
+            <!-- Contact Form -->
+            <div id="contactForm">
+              <form action="contact.html" method="post">
+                <fieldset>
+                  <label for="firstName">Name</label>
+                  <input type="text" name="firstName" placeholder="First Name" id="firstName" required>
+                  <input type="text" name="lastName" placeholder="Last Name" id="lastName" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" placeholder="johndoe@example.com" id="email" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <label for="message">Message</label>
+                  <br>
+                  <textarea name="message" rows="8" cols="80" placeholder="Type your message here" required></textarea>
+                </fieldset>
+                <br>
+                <div id="buttons">
+                  <input type="submit" name="submit" value="Submit" id="submit">
+                  <input type="reset" name="reset" value="Reset">
+                </div>
+              </form>
+            </div>
+          </section>
+
+          <!-- Contact Info Aside -->
+          <aside id="contactInfo">
+            <h3>Contact Info</h3>
+            <h4>Career Craze</h4>
+            <h4 id="addressHeader">Address</h4>
+            <address>
+              2078 Lowndes Hill Park Road<br>Bakersfield, CA
+            </address>
+            <p>Email:<br>
+            <a href="mailto:careercrazebusiness@gmail.com">careercrazebusiness@gmail.com</a></p>
+            <p>Telephone:<br><a href="tel:916-360-4801">916-360-4801</a></p>
+          </aside>
+
+        </section>
       </main>
 
       <!-- Footer -->
       <footer>
-        <p><em>Career Craze</em></p>
+        <p><em>&copy; Career Craze</em></p>
       </footer>
     </div>
 
