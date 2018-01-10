@@ -78,15 +78,15 @@ main h1 {
   font-size: 1em;
 }
 
-#contactForm input:focus, #contactForm textarea:focus {
+.textInput:focus {
   background-color: #FFFFCC;
 }
 
-#contactForm input:focus:valid, #contactForm textarea:focus:valid {
+.textInput:focus:valid {
   background-color: #DEFFE5;
 }
 
-#contactForm input:focus:invalid, #contactForm textarea:focus:invalid {
+.textInput:focus:invalid {
   background-color: #FFCCCC;
 }
 
@@ -95,12 +95,41 @@ main h1 {
 #contactInfo {
   padding: 15px;
   width: 25%;
+  text-align: center;
   border: 5px solid black;
   border-radius: 10px;
   background-color: rgba(232, 112, 12, 0.5);
 }
 
 #contact h3 {
+  margin-bottom: 0.5em;
   color: white;
-  text-align: center;
+  font-size: 2em;
+}
+
+#contact h4 {
+  margin-bottom: 0.25em;
+  color: white;
+  font-size: 1.25em;
+}
+
+#addressHeader {
+  margin-top: 10px;
+}
+
+#contactInfo address {
+  margin-bottom: 10px;
+}
+
+#emailLink {
+  margin-bottom: 10px;
+}
+
+#contactInfo a {
+  color: white;
+  text-decoration: none;
+}
+
+#contactInfo a:hover {
+  text-decoration: underline;
 }

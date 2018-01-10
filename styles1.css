@@ -98,9 +98,26 @@
 .service {
   width: 40%;
   padding: 20px 0;
+  color: black;
   border: 5px solid gray;
   background: linear-gradient(45deg, #D7AA7D 0%, #FFEAC4);
   box-shadow: 0 25px 20px 10px black;
+}
+
+.service:first-of-type {
+  background: linear-gradient(45deg, rgba(215, 170, 125, 0.85), rgba(255, 234, 196, 0.85) 100%), url(typingonlaptop.jpg) 100% / cover;
+}
+
+.service:nth-of-type(2) {
+  background: linear-gradient(45deg, rgba(215, 170, 125, 0.85), rgba(255, 234, 196, 0.85) 100%), url(laptopandnotes.jpg) 100% / cover;
+}
+
+.service:nth-of-type(3) {
+  background: linear-gradient(45deg, rgba(215, 170, 125, 0.85), rgba(255, 234, 196, 0.85) 100%), url(takingnotes.jpg) 100% / cover;
+}
+
+.service:nth-of-type(4) {
+  background: linear-gradient(45deg, rgba(215, 170, 125, 0.85), rgba(255, 234, 196, 0.85) 100%), url(coffeeandlaptop.jpg) 100% / cover;
 }
 
 .service h2 {
@@ -113,7 +130,7 @@
 
 .service p {
   padding: 0 15px;
-  color: gray;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -148,7 +165,7 @@
 
 #contactAndFAQ {
   padding: 2.5%;
-  background: url(questionmark.jpg) 50% 87.5% / 10% no-repeat fixed;
+  /*background: url(questionmark.jpg) 50% 87.5% / 10% no-repeat fixed;*/
 }
 
 #contactAndFAQ div {
