@@ -1,0 +1,89 @@
+section#intro {
+  line-height: 150%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#intro h1 {
+  text-align: center;
+  border-bottom: solid white 3px;
+}
+
+/* aside styles */
+
+aside#list{
+  width: 100%;
+  border-bottom: solid 4px #FF9F00;
+  line-height: 150%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h1#check {
+  border-top: solid 2.5px #FF9F00;
+  border-left: solid 2.5px #FF9F00;
+  border-right: solid 2.5px #FF9F00;
+  background-color: #FFFFFF;
+  text-align: center;
+  line-height: 150%;
+
+}
+
+p#check {
+  border-left: solid 2.5px #FF9F00;
+  border-right: solid 2.5px #FF9F00;
+  border-bottom: solid 2px black;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+
+figure {
+  float: left;
+  margin-right: 15px;
+  width: 30%;
+}
+
+#exampleRefs {
+  margin: auto 0;
+  width: 90%;
+  border: 5px groove white;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/* list styles */
+#list ul li {
+  line-height: 150%;
+  padding: 10px 5px;
+  text-align: center;
+  background-color: white;
+  border-left: 2.5px solid #FF9F00;
+  border-right: 2.5px solid #FF9F00;
+  border-top: 1px solid black;
+}
+
+
+
+/* Flexbox */
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexbox>div#box1 {
+  width: 50%;
+  margin: 0px 50px;
+  text-align: left;
+}
+
+.flexbox>div#box2 {
+  width: 50%;
+  margin: 0px 50px;
+  text-align: center;
+}
