@@ -45,3 +45,33 @@ main h1 {
 }
 
 #contactForm fieldset {
+  /* border: 2.5px solid white; */
+  margin: 0 auto;
+  border: none;
+  background-color: #E6C197;
+}
+
+#contactForm textarea {
+  margin-top: 5px;
+  width: 95%;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#buttons input {
+  font-size: 1em;
+}
+
+#contactForm input:focus, #contactForm textarea:focus {
+  background-color: #FFFFCC;
+}
+
+#contactForm input:focus:valid, #contactForm textarea:focus:valid {
+  background-color: #DEFFE5;
+}
+
+#contactForm input:focus:invalid, #contactForm textarea:focus:invalid {
+  background-color: #FFCCCC;
+}
