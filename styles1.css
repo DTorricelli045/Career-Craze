@@ -14,7 +14,7 @@
 
 #welcomeHeadings {
   margin: 2em 0;
-  color: white;
+  color: #E8700C;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #welcomeHeadings h2 {
-  color: #E8700C;
+  color: white;
   font-size: 3em;
 }
 
@@ -75,7 +75,7 @@
 #offer {
   padding: 50px 0px 20px 0px;
   width: 100%;
-  color: grey;
+  color: white;
   text-align: center;
   font-size: 3em;
 }
@@ -135,6 +135,7 @@
 }
 
 .service a {
+
   float: left;
   margin: 10px 20px;
   padding: 10px;
