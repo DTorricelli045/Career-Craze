@@ -10,7 +10,7 @@
 
 main h1 {
   padding: 0.5em 0;
-  color: white;
+  color: #E8700C;
   font-size: 5em;
   text-align: center;
 }
@@ -34,7 +34,7 @@ main h1 {
 }
 
 #aboutText a {
-  color: white;
+  color: #E8700C;
   text-decoration: none;
 }
 
