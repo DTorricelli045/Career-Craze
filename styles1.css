@@ -101,7 +101,7 @@
   color: black;
   border: 5px solid gray;
   background: linear-gradient(45deg, #D7AA7D 0%, #FFEAC4);
-  box-shadow: 0 25px 20px 10px black;
+  box-shadow: 0 15px 20px 10px black;
 }
 
 .service:first-of-type {
