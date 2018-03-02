@@ -108,6 +108,17 @@ figcaption {
   transition: line-height 0.5s, color 1s, background-color 1s, border-right-color 1s, border-left-color 1s, box-shadow 1s;
 }
 
+#appList ul li:nth-child(odd) {
+  line-height: 150%;
+  padding: 10px 5px;
+  color: white;
+  text-align: center;
+  background-color: #f58222;
+  border-left: 2.5px solid white;
+  border-right: 2.5px solid white;
+
+  transition: line-height 0.5s, color 1s, background-color 1s, border-right-color 1s, border-left-color 1s, box-shadow 1s;
+}
 
 #appList ul li:hover {
   line-height: 200%;
@@ -120,17 +131,7 @@ figcaption {
 }
 
 
-#appList ul li:nth-child(odd) {
-  line-height: 150%;
-  padding: 10px 5px;
-  color: white;
-  text-align: center;
-  background-color: #f58222;
-  border-left: 2.5px solid white;
-  border-right: 2.5px solid white;
 
-  transition: line-height 0.5s, color 1s, background-color 1s, border-right-color 1s, border-left-color 1s, box-shadow 1s;
-}
 
 
 /* Flexbox */
