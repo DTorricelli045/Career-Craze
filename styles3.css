@@ -32,8 +32,9 @@ section#intro {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
-  font-size: 30px;
-  color: white;
+  font-size: 3.5em;
+  color: #E8700C;
+  text-shadow: 2.5px -2.5px rgb(69, 67, 57);
 }
 
 section#content {
@@ -42,6 +43,8 @@ section#content {
 
 #content h1 {
   font-size: 1.5em;
+  color: rgb(75, 75, 75);
+  text-shadow: 1.5px 0px #E8700C;
 }
 
 #content p {
@@ -67,6 +70,8 @@ h1#check {
   border-left: solid 2.5px #FF9F00;
   border-right: solid 2.5px #FF9F00;
   background-color: #FFFFFF;
+  color: rgb(75, 75, 75);
+  text-shadow: .75px 0px #E8700C;
   text-align: center;
   line-height: 150%;
   opacity: 0.80;
