@@ -11,7 +11,7 @@
 
 main h1 {
   padding: 0.5em 0;
-  color: black;
+  color: white;
   font-size: 5em;
   text-align: center;
 }
@@ -23,7 +23,7 @@ main h1 {
 
 #jobview div h2 {
   padding: 0.5em 0;
-  color: black;
+  color: white;
   font-size: 2em;
   text-align: center;
 }
