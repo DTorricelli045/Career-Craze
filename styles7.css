@@ -25,13 +25,7 @@ h1{
 
 p{
   font-size: 1em;
-  padding-top: 10px;
-
-}
-
-p:nth-of-type(even){
-  padding-bottom: 30px;
-  border-bottom: solid 3px black;
+  padding: 10px;
 }
 
 p#ending{
@@ -43,7 +37,43 @@ p>b {
 
 }
 
+b{
+  text-shadow: 2px 2px #FF9F00;
+}
+
+div>p{
+
+}
+
 a{
   text-decoration: none;
   color: white;
+}
+
+div.box1{
+
+  border: 5px solid white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 45%;
+  box-shadow: 10px 5px 5px red;
+}
+
+div.box2{
+
+  border: 5px solid white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 32%;
+  box-shadow: 10px 5px 5px red;
+}
+
+div#help{
+  text-align: center;
+}
+
+div#FF{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
