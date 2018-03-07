@@ -11,6 +11,7 @@
 main h1 {
   padding: 0.5em 0;
   color: #E8700C;
+  text-shadow: 3px -3px rgb(69, 67, 57);
   font-size: 5em;
   text-align: center;
 }
@@ -22,7 +23,8 @@ main h1 {
 
 #aboutText div h2 {
   padding: 0.5em 0;
-  color: white;
+  color: rgb(75, 75, 75);
+  text-shadow: 1.5px 0px #E8700C;
   font-size: 2em;
   text-align: center;
 }
