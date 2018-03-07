@@ -10,62 +10,66 @@
 
 
 /*Main Section styles*/
-main {
+/*main {
   padding: 5%;
-  margin-top: ;
-
-}
+}*/
 
 h1{
   text-align: center;
-  color: white;
+  color: #E8700C;
+  text-shadow: 3px -2px rgb(69, 67, 57);
   font-size: 4em;
   line-height: 1em;
 }
 
-p{
+div.box1 p{
+  font-size: 1em;
+  padding: 10px;
+}
+div.box2 p{
   font-size: 1em;
   padding: 10px;
 }
 
 p#ending{
-  margin-top: 15px;
+  margin-top: 20px;
+  font-size: 1.2em;
 }
 
 p>b {
-  color: white;
-
+  color: rgb(75, 75, 75);
+  text-shadow: 1.5px 0px #E8700C;
 }
 
 b{
   text-shadow: 2px 2px #FF9F00;
 }
 
-div>p{
-
-}
-
 a{
   text-decoration: none;
-  color: white;
+  color: #E8700C;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #E8700C;
+  border-bottom: solid #E8700C 2px;
 }
 
 div.box1{
-
-  border: 5px solid white;
+  border: 5px solid gray;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 45%;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 0 10px 20px 10px black;
 }
 
 div.box2{
-
-  border: 5px solid white;
+  border: 5px solid gray;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 32%;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 0 10px 15px 5px black;
 }
 
 div#help{
