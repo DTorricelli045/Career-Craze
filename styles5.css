@@ -21,6 +21,13 @@ section#intro {
   margin-bottom: 20px;
 }
 
+section#intro h1{
+  color: #E8700C;
+  text-shadow: 2px -2px rgb(69, 67, 57);
+  text-align: center;
+  font-size: 3em;
+}
+
 blockquote {
   padding: 20px 0 20px 20px;
 }
@@ -38,7 +45,8 @@ section#content {
 }
 
 #content h1 {
-  color: white;
+  color: rgb(75, 75, 75);
+  text-shadow: 1px 0px #E8700C;
   font-size: 1.5em;
 }
 
